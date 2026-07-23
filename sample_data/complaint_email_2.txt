@@ -1,0 +1,43 @@
+From: Sarah Mitchell <sarah.mitchell@healthfirst.com>
+To: quality@pharmaworks.com
+Date: July 18, 2026
+Subject: Packaging Defect - Metformin HCl 1000mg Extended Release Tablets - Lot MET-ER-2603
+
+Dear QA Team,
+
+We are filing a formal complaint regarding a packaging/labeling defect observed in your product.
+
+Customer Information:
+- Company: HealthFirst Pharmacy Group
+- Contact: Sarah Mitchell, Quality Manager
+- Source: Warehouse inspection during incoming goods receipt
+
+Product Information:
+- Product: Metformin Hydrochloride Extended Release Tablets USP
+- Strength/Grade: 1000mg ER
+- Batch Number: MET-ER-2603
+- Manufacturing Date: January 22, 2026
+- Expiry Date: December 2027
+- Quantity Received: 500 bottles (100 tablets each)
+- Quantity Affected: Approximately 47 bottles
+
+Issue Description:
+During our incoming quality check, we discovered that 47 bottles from lot MET-ER-2603 have mismatched labels. The outer carton correctly identifies the product as "Metformin HCl 1000mg ER Tablets" but the bottle labels on these 47 units read "Metformin HCl 500mg Tablets" — indicating a possible label mix-up during the packaging line operation.
+
+The tablet shape and debossing (marked "MET 1000") appear consistent with the 1000mg strength, suggesting the tablets themselves may be correct but the labels are wrong. However, we cannot confirm this without analytical testing.
+
+We have quarantined the entire shipment of 500 bottles pending resolution. This labeling discrepancy poses a significant patient safety risk as it could lead to under-dosing if a pharmacist relies on the incorrect bottle label.
+
+Shipment details:
+- Received: July 16, 2026
+- Distributor: PharmaDirect Logistics
+- Invoice: PDL-2026-11458
+- Storage: Controlled Room Temperature, verified upon receipt
+
+We request urgent investigation and disposition instructions for the quarantined stock.
+
+Regards,
+Sarah Mitchell
+Quality Manager, HealthFirst Pharmacy Group
+Email: sarah.mitchell@healthfirst.com
+Phone: +1-512-555-0147

@@ -1,0 +1,60 @@
+CUSTOMER COMPLAINT REPORT
+=========================
+
+Report ID: QC-RPT-2026-0293
+Date Filed: July 20, 2026
+
+COMPLAINANT DETAILS:
+- Name: Vikram Patel
+- Company: BioGenesis Pharmaceuticals Pvt. Ltd.
+- Role: Head of Quality Control
+- Contact: +91-22-6789-4523
+- Email: v.patel@biogenesis.co.in
+- Complaint Source: Email with attached lab report
+
+PRODUCT DETAILS:
+- Product Name: Ciprofloxacin Hydrochloride API
+- Product Type: Active Pharmaceutical Ingredient (API)
+- Grade: USP/EP Pharmaceutical Grade
+- Batch/Lot Number: CIPRO-API-2026-B12
+- Manufacturing Date: February 8, 2026
+- Expiry/Retest Date: February 2028
+- Quantity Supplied: 200 kg (4 drums of 50 kg each)
+- Quantity Affected: All 200 kg under investigation
+
+COMPLAINT DESCRIPTION:
+Upon performing incoming raw material testing at our FDF manufacturing facility, we observed that Ciprofloxacin HCl API from batch CIPRO-API-2026-B12 fails to meet the specified assay limit. 
+
+Our test results:
+- Assay (by HPLC): 96.8% (Specification: NLT 99.0% on dried basis)
+- Related Substances (Total Impurities): 1.4% (Specification: NMT 0.5%)
+- Specific unknown impurity at RRT 0.87: 0.6% (Specification: NMT 0.1%)
+- Water Content (Karl Fischer): Within specification at 0.3%
+- Residual Solvents: Within specification
+
+The elevated impurity levels, particularly the unknown impurity at RRT 0.87, are a significant concern as they may impact the safety profile of our finished product (Ciprofloxacin 500mg Tablets). We have placed all raw material from this batch on hold and have not used it in any production batch.
+
+Your Certificate of Analysis (COA) for this batch reports:
+- Assay: 99.5%
+- Total Impurities: 0.2%
+
+There is a significant discrepancy between your COA data and our test results, which raises concerns about the testing methodology or a possible stability/storage issue during transit.
+
+IMPACT ASSESSMENT:
+- 3 FDF production batches were scheduled using this API
+- Production schedule delayed by approximately 2 weeks
+- Alternative API source being evaluated at premium cost
+- Estimated financial impact: ₹25,00,000 (approximately $30,000 USD)
+
+REQUESTED ACTIONS:
+1. Immediate investigation into the discrepancy
+2. Re-testing of retained samples at your facility
+3. Root cause analysis for the elevated impurity
+4. Replacement shipment of conforming material
+5. Updated stability data for this batch
+
+SAMPLE AVAILABILITY:
+We are retaining adequate samples for referee testing and can arrange shipment of counter-samples to your facility or a mutually agreed third-party laboratory.
+
+Filed by: QA Department, BioGenesis Pharmaceuticals
+Authorized by: Vikram Patel, Head of Quality Control

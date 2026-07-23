@@ -1,0 +1,31 @@
+.page-container {
+  display: flex;
+  min-height: 100vh;
+  padding: 32px;
+  gap: 32px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.left-panel {
+  flex: 0 0 55%;
+  background-color: transparent;
+}
+
+.right-panel {
+  flex: 0 0 42%;
+  /* 42% + 55% + gap roughly equals 100% depending on exact layout, we can use flex: 1 for right to fill */
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  .page-container {
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}
