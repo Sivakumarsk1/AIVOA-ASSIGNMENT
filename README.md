@@ -2,7 +2,7 @@
 
 An AI-powered Customer Complaint Management System for the pharmaceutical manufacturing industry (API & FDF), built as part of the AIVOA Full Stack Developer Assessment.
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -21,7 +21,7 @@ An AI-powered Customer Complaint Management System for the pharmaceutical manufa
 └──────────────────────────────────────────────────────────────┘
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -32,7 +32,7 @@ An AI-powered Customer Complaint Management System for the pharmaceutical manufa
 | **Database** | SQLite (dev) / PostgreSQL (prod) |
 | **Font** | Google Inter |
 
-## 📋 Features
+## Features
 
 ### Core Features
 - **Complaint Logging Form** — 4-section form matching pharmaceutical QMS standards
@@ -42,14 +42,14 @@ An AI-powered Customer Complaint Management System for the pharmaceutical manufa
 - **CRUD Operations** — Create, read, update, delete complaints
 
 ### Bonus AI Features
-- ✅ **Complaint Completeness Checker** — Scores how complete the complaint data is (0-100%)
-- ✅ **Root Cause Recommendation** — AI suggests possible root causes based on complaint details
-- ✅ **Duplicate Complaint Detection** — Compares against existing complaints for duplicates
-- ✅ **CAPA Recommendation** — Suggests Corrective and Preventive Actions
-- ✅ **Complaint Summary** — Generates concise AI summary of the complaint
-- ✅ **AI Risk Classification** — Classifies risk level (Critical/High/Medium/Low)
+-  **Complaint Completeness Checker** — Scores how complete the complaint data is (0-100%)
+-  **Root Cause Recommendation** — AI suggests possible root causes based on complaint details
+-  **Duplicate Complaint Detection** — Compares against existing complaints for duplicates
+-  **CAPA Recommendation** — Suggests Corrective and Preventive Actions
+-  **Complaint Summary** — Generates concise AI summary of the complaint
+-  **AI Risk Classification** — Classifies risk level (Critical/High/Medium/Low)
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - **Node.js** >= 18.x
@@ -100,7 +100,7 @@ npm run dev
 
 The frontend will be available at `http://localhost:5173`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 naukricompanyproject/
@@ -136,7 +136,7 @@ naukricompanyproject/
 └── README.md
 ```
 
-## 🔄 LangGraph Agent Workflow
+##  LangGraph Agent Workflow
 
 The AI extraction agent uses a multi-step LangGraph workflow:
 
@@ -148,7 +148,7 @@ START → Parse Document → Extract Fields → Classify Severity
 
 Each node uses the Groq `gemma2-9b-it` model with pharmaceutical-specific prompts.
 
-## 🎯 API Endpoints
+##  API Endpoints
 
 ### Complaints
 | Method | Endpoint | Description |
@@ -172,7 +172,7 @@ Each node uses the Groq `gemma2-9b-it` model with pharmaceutical-specific prompt
 | `POST` | `/api/ai/summarize` | Generate summary |
 | `POST` | `/api/ai/root-cause` | Root cause analysis |
 
-## 🧪 Demo
+##  Demo
 
 ### Sample Workflow
 1. Open the application at `http://localhost:5173`
@@ -183,7 +183,7 @@ Each node uses the Groq `gemma2-9b-it` model with pharmaceutical-specific prompt
 6. Chat with the AI assistant for clarification
 7. Click "Save Complaint" to persist
 
-## 📝 Key Design Decisions
+##  Key Design Decisions
 
 1. **SQLite for Development** — Zero external dependencies, easy to set up. Can switch to PostgreSQL for production.
 2. **LangGraph Multi-Step Pipeline** — Each AI task (extraction, classification, CAPA, etc.) is a separate node, enabling modular testing and easy extension.
@@ -191,7 +191,7 @@ Each node uses the Groq `gemma2-9b-it` model with pharmaceutical-specific prompt
 4. **Groq gemma2-9b-it** — Fast inference with good structured output capabilities for pharmaceutical domain.
 5. **Pharmaceutical QMS Context** — All AI prompts are crafted with pharma domain knowledge (ICH guidelines, GMP, CAPA workflows).
 
-## 👤 Author
+##  Author
 
 Built for the AIVOA Round 1 Full Stack Developer Assessment.
 
