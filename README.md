@@ -5,32 +5,29 @@ An AI-powered Customer Complaint Management System for the pharmaceutical manufa
 ## Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│              FRONTEND (React + Redux + Vite)                 │
-│  ComplaintForm  ←→  AIAssistantPanel                         │
-│  (Log Form)         (Upload, Extract, Chat)                  │
-└──────────────────────┬───────────────────────────────────────┘
-                       │  REST API
-┌──────────────────────▼───────────────────────────────────────┐
-│              BACKEND (FastAPI + Python)                       │
-│  Routes → Services → LangGraph Agents → Groq LLM            │
-└──────────────────────┬───────────────────────────────────────┘
-                       │
-┌──────────────────────▼───────────────────────────────────────┐
-│              DATABASE (SQLite / PostgreSQL)                   │
-└──────────────────────────────────────────────────────────────┘
+           FRONTEND (React + Redux + Vite)                
+  ComplaintForm  ←→  AIAssistantPanel              
+  (Log Form)         (Upload, Extract, Chat)
+             
+                       REST API
+              BACKEND (FastAPI + Python)                       
+  Routes → Services → LangGraph Agents → Groq LLM            
+
+
+             DATABASE (SQLite / PostgreSQL)                   
+
 ```
 
 ##  Technology Stack
 
-| Layer | Technology |
-|-------|-----------|
-| **Frontend** | React 18, Redux Toolkit (RTK Query), React Router, Vite |
-| **Backend** | Python, FastAPI, SQLAlchemy |
-| **AI Framework** | LangGraph (Agent Workflow) |
-| **LLM** | Groq API - `gemma2-9b-it` model |
-| **Database** | SQLite (dev) / PostgreSQL (prod) |
-| **Font** | Google Inter |
+ Layer  Technology 
+ 
+ **Frontend**  React 18, Redux Toolkit (RTK Query), React Router, Vite 
+ **Backend** | Python, FastAPI, SQLAlchemy 
+ **AI Framework** | LangGraph (Agent Workflow) 
+ **LLM** | Groq API - `gemma2-9b-it` model 
+ **Database** | SQLite (dev) / PostgreSQL (prod) 
+ **Font** | Google Inter 
 
 ## Features
 
